@@ -1,28 +1,71 @@
 /*Global Styles
 --------------------*/
+html {
+    box-sizing: border-box;
+
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
 body{
     color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
+    
+}
+h1, h2, h3 {
+    font-family: 'Handlee', cursive;
+}
+h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px white;
+}
+h2 {
+    margin: 0;
+    color: white;
+}
+h3 {
+    color: white;
 }
 img {
-    width: 300px;
+    width: 150px;
 }
-
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
 /*Summary
 --------------------*/
 header{
-    background-color: cadetblue;
+    background-color: rgb(130, 189, 214);
+    text-align: center;
 }
 
 
 /*Projects
 --------------------*/
-.projects{
+.projects {
     background-color:burlywood;
+    padding: 8px;
+    border-radius: 4px;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+    padding: 15px 0;
+}
+.project-item {
+    overflow: hidden;
+   
 }
 
 
 /*Education
 --------------------*/
+.education {
+    background-color:rgb(130, 189, 214); ;
+}
 
 
 /*Keep in touch
